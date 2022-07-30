@@ -85,39 +85,41 @@ a {
 }
 
 .info, .layer2 {
-    background-color: #735cdd;
+    background-color: #D4C5E2;
 }
 
 .info{
     display: flex;
     justify-content: center;
+    color: #1E1E24;
 }
 .layer2 {
     display: flex;
     justify-content: center;
     gap: 30px;
     padding-bottom: 80px;
-    
 }
 
 .box img {
     height: 200px;
     width: 200px;
     border-radius: 20px;
-    border: lightblue 5px solid;
+    border: #735cdd 5px solid;
 }
 
 .box {
     flex: 0 1;
     text-align: center;
+    color: #1E1E24;
 }
 
 .layer3 {
     padding: 80px 100px;
-    background-color: aquamarine;
+    background-color: #D6D9CE;
     display: flex;
     flex-direction: column;
-    
+    font-style: italic;
+    color: #1E1E24;
 }
 
 .quoted {
@@ -126,6 +128,7 @@ a {
     padding: 0;
     font-size: 20px;
     font-weight: 700;
+    font-style: normal;
     
 }
 
