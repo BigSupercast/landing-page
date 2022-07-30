@@ -93,5 +93,30 @@ ul {
     text-align: center;
 }
 
+.layer3 {
+    /* border: 5px red solid; */
+    padding: 80px 100px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    /* border: 5px red solid; */
+    
+}
+
+.quoted {
+    /* border: 5px red solid; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.container {
+    /* border: 5px red solid; */
+    text-align: center;
+    font-size: 30px;
+}
 
 
