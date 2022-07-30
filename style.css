@@ -1,5 +1,48 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
-    border: 10px red solid;
 }
+
+.selection {
+    display: flex;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* border: 5px red solid; */
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.layer1 {
+    /* border: 5px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.title {
+    /* border: 5px red solid; */
+    margin: 30px;
+}
+
+.mainimg {
+    /* border: 5px red solid; */
+    padding: 20px;
+}
+
+
+
