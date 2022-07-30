@@ -12,6 +12,7 @@ body {
     justify-content: space-between;
     /* border: 5px red solid; */
     align-items: center;
+    background-color: gray;
 }
 
 .navbar ul {
@@ -32,11 +33,22 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    background-color: lightcyan;
 }
+
+
 
 .title {
     /* border: 5px red solid; */
     margin: 30px;
+}
+
+.title button {
+    padding: 5px 20px;
+}
+.name {
+    font-size: 32px;
+    line-height: 0.1;
 }
 
 .mainimg {
@@ -45,4 +57,8 @@ ul {
 }
 
 
+.mainimg img{
+    height: 250px;
+    width: 250px;
+}
 
